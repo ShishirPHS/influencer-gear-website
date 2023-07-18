@@ -197,7 +197,6 @@ body {
   .sponsors .container img {
     margin: 20px 0;
     margin-right: 0;
-    /* width: calc(100% - 10%); */
   }
 }
 
@@ -246,5 +245,26 @@ body {
 
   .banner button {
     margin: 0 auto;
+  }
+
+  .banner-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .banner-image img {
+    width: 80%;
+  }
+
+  /* sponsors part responsive styles */
+  .sponsors .container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sponsors .container img {
+    margin: 20px 0;
+    margin-right: 0;
   }
 }
