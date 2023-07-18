@@ -10,7 +10,7 @@ body {
 
 /* navbar part css start */
 .header {
-  width: 1440px;
+  max-width: 1440px;
   margin: 87px auto 0;
 }
 
@@ -18,6 +18,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .nav-title {
@@ -30,7 +31,7 @@ body {
   display: flex;
 }
 
-.nav .right > ul {
+.nav .right ul {
   display: flex;
   align-items: center;
 }
@@ -51,3 +52,30 @@ body {
   margin-left: 34px;
 }
 /* navbar part css end */
+
+/* =============================================================================
+                                Responsive css start
+============================================================================= */
+@media screen and (max-width: 576px) {
+  .nav,
+  .nav .right {
+    flex-direction: column;
+  }
+
+  .nav .right {
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .nav .right ul li {
+    margin-right: 20px;
+  }
+
+  .nav .right ul li:last-child {
+    margin-right: 0;
+  }
+
+  .nav .right .icons {
+    margin-top: 10px;
+  }
+}
