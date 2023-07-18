@@ -1,0 +1,53 @@
+/* shared styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar part css start */
+.header {
+  width: 1440px;
+  margin: 87px auto 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title {
+  color: #3a3a3a;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.nav .right {
+  display: flex;
+}
+
+.nav .right > ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav .right > ul li {
+  list-style-type: none;
+  margin-right: 34px;
+}
+
+.nav .right > ul li a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.nav .icons .shopping-cart-icon {
+  margin-left: 34px;
+}
+/* navbar part css end */
