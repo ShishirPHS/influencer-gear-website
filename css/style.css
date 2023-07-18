@@ -61,6 +61,7 @@ body {
 .banner {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 70px;
 }
 
 .banner-content {
@@ -110,6 +111,11 @@ body {
   top: 30px;
 }
 /* banner part css end */
+
+/* main part css */
+/* sponsors part css start */
+
+/* sponsors part css end */
 
 /* =============================================================================
                                 Responsive css start
@@ -175,7 +181,8 @@ body {
 
 @media screen and (min-width: 577px) and (max-width: 960px) {
   .nav,
-  .nav .right {
+  .nav .right,
+  .banner {
     flex-direction: column;
   }
 
@@ -197,4 +204,36 @@ body {
   }
 
   /* banner part responsive styles */
+  .banner-content {
+    margin-bottom: 20px;
+  }
+
+  .banner-title {
+    width: auto;
+    text-align: center;
+  }
+
+  .banner-description {
+    width: auto;
+    text-align: center;
+  }
+
+  .banner button {
+    margin: 0 auto;
+  }
+
+  .banner-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .banner-image .circle {
+    width: 80%;
+  }
+
+  .banner-image .camera {
+    top: 4px;
+    right: 25px;
+    width: 80%;
+  }
 }
