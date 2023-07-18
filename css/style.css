@@ -116,7 +116,8 @@ body {
 ============================================================================= */
 @media screen and (max-width: 576.98px) {
   .nav,
-  .nav .right {
+  .nav .right,
+  .banner {
     flex-direction: column;
   }
 
@@ -137,8 +138,38 @@ body {
     margin-top: 10px;
   }
 
-  .banner {
-    display: none;
+  /* banner part responsive styles */
+  .banner-content {
+    margin-bottom: 20px;
+  }
+
+  .banner-title {
+    width: auto;
+    text-align: center;
+  }
+
+  .banner-description {
+    width: auto;
+    text-align: center;
+  }
+
+  .banner button {
+    margin: 0 auto;
+  }
+
+  .banner-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .banner-image .circle {
+    width: 80%;
+  }
+
+  .banner-image .camera {
+    top: 4px;
+    right: 25px;
+    width: 80%;
   }
 }
 
@@ -165,7 +196,5 @@ body {
     margin-top: 10px;
   }
 
-  .banner {
-    display: none;
-  }
+  /* banner part responsive styles */
 }
