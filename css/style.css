@@ -100,16 +100,6 @@ body {
 .banner button i {
   margin-left: 8px;
 }
-
-.banner-image {
-  position: relative;
-}
-
-.banner-image .camera {
-  position: absolute;
-  right: 33px;
-  top: 30px;
-}
 /* banner part css end */
 
 /* main part css */
@@ -145,6 +135,10 @@ body {
   }
 
   /* banner part responsive styles */
+  .banner {
+    align-items: center;
+  }
+
   .banner-content {
     margin-bottom: 20px;
   }
@@ -161,21 +155,6 @@ body {
 
   .banner button {
     margin: 0 auto;
-  }
-
-  .banner-image {
-    display: flex;
-    justify-content: center;
-  }
-
-  .banner-image .circle {
-    width: 80%;
-  }
-
-  .banner-image .camera {
-    top: 4px;
-    right: 25px;
-    width: 80%;
   }
 }
 
@@ -204,6 +183,10 @@ body {
   }
 
   /* banner part responsive styles */
+  .banner {
+    align-items: center;
+  }
+
   .banner-content {
     margin-bottom: 20px;
   }
@@ -220,20 +203,5 @@ body {
 
   .banner button {
     margin: 0 auto;
-  }
-
-  .banner-image {
-    display: flex;
-    justify-content: center;
-  }
-
-  .banner-image .circle {
-    width: 80%;
-  }
-
-  .banner-image .camera {
-    top: 4px;
-    right: 25px;
-    width: 80%;
   }
 }
